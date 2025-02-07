@@ -1,0 +1,8 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Remarks,
+2,TC01,Validate Product Listing Page,Open Product Page > verify Products,Products Displayed Correctly,Products Displayed Correctly,Pass,high,No issue found
+3,TC02,Validte Category page,Open Category page > Click on product,Products based on category Displayed,Works correctly exactly,Pass,high,Woks as expected
+4,TC03,Test API error Handling,Disconnect APi > Refresh page,Show Fallback UI with error message,Error Message Shown,Pass,low,Handled gracefully
+5,TC04,Test Category dynamic slugs,Visit Landing Page > Click on Categories Link,Products of the same name with slug displayed,Works as expected,Pass,high,Woks as expected
+6,TC05,Check Functionality of add to cart,Add Product to cart > Check cart content,Item Added to the cart and also total increased,Cart updated with new item,Pass,medium,Works as expected
+7,TC06,Ensure Responsivness across all devices,Resize Browser window Check Layout,Layout adjust properly to screen size no scrollbar,Layout is working accurately,Pass,high,Test Successful
+
